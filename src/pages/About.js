@@ -5,7 +5,7 @@ function About() {
     <div id="secondPage" className="About mainContainer about">
       <section className="secondLeft">
         <p className="aboutMe">
-          I am a Computer Engineering student who felt inlove with Software. I
+          I am a Computer Engineering student who fell inlove with Software. I
           like discovering new technologies and build projects from scratch.
           When I don't have assignments I usually code and when I have I still
           code.
