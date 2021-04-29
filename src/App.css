@@ -1,0 +1,179 @@
+/* MAIN CONTAINER */
+.mainContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/*  */
+.left,
+.secondRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--mainColor);
+  color: #fff;
+  position: relative;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.mainContainer section {
+  flex: 1;
+}
+
+.menu {
+  position: fixed;
+  right: 20px;
+  bottom: 50%;
+  height: 180px;
+  width: 60px;
+  background-color: var(--mainColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 1;
+  border: var(--mainColor) 1px solid;
+}
+
+.menu div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.odd {
+  background-color: var(--secondaryColor);
+}
+
+.even {
+  color: #fff;
+}
+
+.box,
+.box1 {
+  height: 60vh;
+  width: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  border: #fff 3px solid;
+}
+
+.box1 {
+  border: var(--mainColor) 3px solid;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.myImage {
+  height: 100%;
+  filter: brightness(100%);
+}
+
+.imgContainer {
+  position: absolute;
+  height: 100%;
+  left: -70px;
+  padding: 20px;
+  background-color: var(--secondaryColor);
+}
+
+.myName,
+.myAbout {
+  position: absolute;
+  padding: 20px;
+  background-color: var(--mainColor);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: end;
+}
+
+.myName {
+  right: 0;
+}
+
+.myAbout {
+  left: 50px;
+}
+
+.aboutMe {
+  padding: 20px;
+  margin: 6rem;
+  border-right: var(--mainColor) 3px solid;
+  border-bottom: var(--mainColor) 3px solid;
+  line-height: 1.5rem;
+  text-align: end;
+  text-justify: inter-word;
+}
+
+.this {
+  border-bottom: #000 1px solid;
+  /*border-top: #000 1px solid; */
+  color: maroon;
+  font-weight: 900;
+  padding: 0 2px;
+}
+
+.this:hover {
+  border-right: #000 1px solid;
+  border-top: #000 1px solid;
+  border-left: #000 1px solid;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    height: 100%;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .box,
+  .box1 {
+    height: 50vh;
+    margin: 50px;
+  }
+
+  .myAbout {
+    left: 0;
+  }
+
+  .myName,
+  .myAbout {
+    text-align: center;
+  }
+
+  .left,
+  .right,
+  .secondLeft,
+  .secondRight,
+  .thirdLeft,
+  .thirdRight {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu {
+    bottom: 20px;
+  }
+}
