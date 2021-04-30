@@ -9,8 +9,7 @@
 }
 
 /*  */
-.left,
-.secondRight {
+.left {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,20 +106,6 @@
   right: 0;
 }
 
-.myAbout {
-  left: 50px;
-}
-
-.aboutMe {
-  padding: 20px;
-  margin: 6rem;
-  border-right: var(--mainColor) 3px solid;
-  border-bottom: var(--mainColor) 3px solid;
-  line-height: 1.5rem;
-  text-align: end;
-  text-justify: inter-word;
-}
-
 .this {
   border-bottom: #000 1px solid;
   /*border-top: #000 1px solid; */
@@ -144,29 +129,18 @@
     flex-direction: column;
   }
 
-  .about {
-    flex-direction: column-reverse;
-  }
-
   .box,
   .box1 {
     height: 50vh;
     margin: 50px;
   }
 
-  .myAbout {
-    left: 0;
-  }
-
-  .myName,
-  .myAbout {
+  .myName {
     text-align: center;
   }
 
   .left,
   .right,
-  .secondLeft,
-  .secondRight,
   .thirdLeft,
   .thirdRight {
     width: 100%;

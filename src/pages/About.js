@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.css";
 
 function About() {
   return (
@@ -6,8 +7,8 @@ function About() {
       <section className="secondLeft">
         <p className="aboutMe">
           I am a Computer Engineering student who fell inlove with Software. I
-          like discovering new technologies and build projects from scratch.
-          When I don't have assignments I usually code and when I have I still
+          like discovering new technologies and building projects from scratch.
+          When I don't have assignments, I usually code and when I have, I still
           code.
           <br></br>
           Apart from coding,
