@@ -10,7 +10,7 @@ function Intro() {
             <br></br>Jeremiah Valencia
             <br></br>
             <br></br>
-            <br></br>Web Developer
+            <br></br>Full Stack Developer
             <br></br>based in
             <br></br>Philippines
           </h1>
