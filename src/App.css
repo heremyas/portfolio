@@ -29,37 +29,6 @@
   flex: 1;
 }
 
-.menu {
-  position: fixed;
-  right: 20px;
-  bottom: 50%;
-  height: 180px;
-  width: 60px;
-  background-color: var(--mainColor);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  z-index: 1;
-  border: var(--mainColor) 1px solid;
-}
-
-.menu div {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.odd {
-  background-color: var(--secondaryColor);
-}
-
-.even {
-  color: #fff;
-}
-
 .box,
 .box1 {
   height: 60vh;
@@ -145,9 +114,5 @@
   .thirdRight {
     width: 100%;
     height: 100%;
-  }
-
-  .menu {
-    bottom: 20px;
   }
 }
